@@ -24,18 +24,22 @@ h1 {
     font-size: 4em;
 }
 
+h2 {
+    font-size: 6em;
+}
+
 h3{
     font-size: 2em;
     margin-top: 25px;
 }
 
-div{
+.mensagem{
     font-size: 1.5em;
     margin-top: 40px;
 }
 
 .box {
-    border: 2px solid var(--primary-color) ;
+    border: 7px dotted var(--primary-color) ;
     display: inline-block;
     font-size: 4em ;
     padding: 10px;
