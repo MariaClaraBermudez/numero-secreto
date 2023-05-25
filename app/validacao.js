@@ -1,10 +1,12 @@
 function verificaSeOChutePosuuiUmValorValido(chute) {
     const numero = +chute
 
-    if(chuteForInvalido(numero)) {
+     if(chuteForInvalido(numero)) {
        elementoChute.innerHTML += '<div>Valor invalido</div>'
-        return
+        return 
     } 
+
+   
     
     if (numeroForMaiorOuMenorQueOValorPermitido(numero)) {
         elementoChute.innerHTML +=
@@ -47,3 +49,6 @@ document.body.addEventListener('click', e => {
         window.location.reload()    //recarrega a pagina atual e renicia o jogo
     }
 })
+
+
+
